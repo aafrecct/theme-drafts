@@ -7,21 +7,21 @@
 
 @font-face {
   font-family: "Drafing Mono";
-  src: url("font/DraftingMono-MediumItalic.woff2") format("woff2");
+  src: url("../fonts/DraftingMono-MediumItalic.woff2") format("woff2");
   font-style: italic;
   font-weight: normal;
 }
 
 @font-face {
   font-family: "Drafing Mono";
-  src: url("font/DraftingMono-Bold.woff2") format("woff2");
+  src: url("../fonts/DraftingMono-Bold.woff2") format("woff2");
   font-style: normal;
   font-weight: bold;
 }
 
 @font-face {
   font-family: "Drafing Mono";
-  src: url("font/DraftingMono-Bold.woff2") format("woff2");
+  src: url("../fonts/DraftingMono-Bold.woff2") format("woff2");
   font-style: italic;
   font-weight: bold;
 }
