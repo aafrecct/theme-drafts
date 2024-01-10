@@ -3,7 +3,7 @@
   --black: #282828;
   --grey: #7c6f64;
   --blue: #076678;
-  --hightlight: #90b2a5;
+  --hightlight: #ebdbb2;
 }
 
 /* Clearfix */
@@ -40,7 +40,8 @@ body {
 
 body {
   font: 16px "Drafing Mono", monospace;
-  color: var(--white);
+  background-color: var(--white);
+  color: var(--black);
   text-rendering: optimizeLegibility;
 }
 
@@ -78,8 +79,7 @@ body {
 
 nav.main-nav {
   padding: 20px 20px 0;
-  background: #fbf1c7;
-  background: rgba(255, 255, 255, .90);
+  background: var(--white);
   margin: 0 auto;
   text-align: right;
   z-index: 100;
@@ -478,9 +478,10 @@ h2.headline {
   font-size: 13px;
   font-weight: 400;
   padding-left: 12px;
-  border: 2px solid #eee;
+  border: 2px solid var(--black);
   margin-top: 20px;
   border-radius: 17px;
+  background: var(--hightlight);
   -webkit-appearance: none;
 }
 
@@ -533,7 +534,7 @@ video {
   margin-left: auto;
   margin-right: auto;
   font-size: 13px;
-  color: #bbb;
+  color: var(--gray);
   text-align: center;
 }
 
@@ -574,7 +575,7 @@ video {
 .microblog_conversation {
   margin-top: 50px;
   padding-top: 20px;
-  border-top: 1px solid lightgray;
+  border-top: 1px solid var(--gray);
 }
 
 .microblog_post {
