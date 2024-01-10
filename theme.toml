@@ -1,1 +1,12 @@
+name = "Drafting theme"
+license = "MIT"
+description = "Adapted from Micro.blog's Marfa theme"
 
+[author]
+  name = "Borja Martinena"
+  homepage = ""
+
+# If porting an existing theme
+[original]
+  name = "Marfa theme"
+  repo = "https://github.com/microdotblog/theme-marfa"
